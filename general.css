@@ -1,0 +1,163 @@
+body {
+  /* // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+   */
+
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #535353;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+
+
+}
+
+.header {
+  margin-top: 80px;
+  /* left:52px;
+  right: 52px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 48px;
+
+}
+
+.title {
+  width: 716px;
+  height: 92px;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.title-description {
+  max-width: 760px;
+  height: 70px;
+  font-weight: 400;
+  color: #5f6980;
+  font-size: 20px;
+  margin-top: 25px;
+
+}
+
+.sub-title {
+  font-size: 54px;
+  line-height: 62px;
+
+}
+
+.team {
+  font-size: 16px;
+  line-height: 26px;
+}
+.team-1 {
+  opacity: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+footer {
+  background-color: #53535354;
+max-width: 1654px;
+  height: 512px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.first-division {
+  max-width: 300px;
+  height: 221px;
+  margin-top: 108px;
+  margin-left: 52px;
+
+}
+
+.second-division {
+  max-width:136px;
+  height: 223px;
+  margin-top:108px;
+
+}
+
+.third-division {
+  max-width:199px;
+  height: 223px;
+  margin-top:108px;
+ 
+}
+
+.fourth-division {
+  max-width:107px;
+  height: 127.45px;
+  margin-top:108px;
+  margin-right: 52px;
+}
+
+.site-logo {
+  width: 100px;
+  height: 64px;
+  margin-bottom:30px;
+  /* margin-bottom: 32px; */
+
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #535353;
+  margin-bottom: 35px;
+}
+
+.footer-socials {
+  width: 104px;
+  height: 24px;
+  /* margin-left:52px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #1E1E1E;
+}
+.second-division .footer-title, .third-division .footer-title   {
+  margin-bottom:71px;
+}
+
+.fourth-division .footer-title  {
+  margin-bottom:58.45px;
+}
+
+.second-division p, .third-division p {
+  height:48px;
+}
+
+button {
+  width:80px;
+  height:45px;
+  padding: 14px 16px;
+  gap:10px; 
+
+  background-color:#054A68;
+  border:none;
+  color:white;
+}
